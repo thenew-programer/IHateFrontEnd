@@ -9,5 +9,5 @@ First of all I hate frontend, I'm forced to learn the basics of it that's why I 
 ![picture](./media/moviesresponsive.png)
 ## 0x04-Glass Effect Website
 ![picture](./media/adidas.png)
-![picture]('./media/adidas phone.png')
+![picture](./media/adidasPhone.png)
 
