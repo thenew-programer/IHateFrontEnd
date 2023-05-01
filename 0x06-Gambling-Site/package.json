@@ -1,0 +1,19 @@
+{
+  "name": "0x06-gambling-site",
+  "version": "1.0.0",
+  "description": "Gambling Site (I don't gamble just for practive)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "IHateFrontEnd"
+  },
+  "author": "Youssef",
+  "license": "ISC",
+  "dependencies": {
+    "child-process": "^1.0.2",
+    "prompt-sync": "^4.2.0"
+  }
+}
