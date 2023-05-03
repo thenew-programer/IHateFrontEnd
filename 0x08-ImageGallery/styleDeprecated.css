@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}	
+
+body {
+	background: #000;
+}
+
+div {
+	height: 15%;
+	width: 60%;
+	margin: auto;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	padding: 15px 10px 10px;
+}
+hr {
+	color: white;
+	background: white;
+	height: 3px;
+}
+
+img {
+	width: 30%;
+	float: left;
+	margin: 1.45%;
+	transition: 0.5s;
+	border: 1px solid transparent;
+	border-radius: 12px;
+}
+
+img:hover {
+	width: 32%;
+	margin: 0;
+}
+@media (max-width: 454px) {
+	img {
+		width: 60%;
+		margin: 5% 20%;
+	}
+	img:hover {
+		width: 62%;
+	}
+}
