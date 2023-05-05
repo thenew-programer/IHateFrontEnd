@@ -28,4 +28,4 @@ Official Site:		[Ableton.com](https://www.ableton.com/en/about)
 ## 0x0B Abstract Clone
 Official Site: [Abstract.com](https://help.abstract.com/hc/en-us)
 
-go to my clone => [myclone.com]()
+go to my clone => [myclone.com](https://thenew-programer.github.io/myclone.com/)
