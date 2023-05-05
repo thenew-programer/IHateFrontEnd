@@ -1,0 +1,432 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'futura pt book', sans-serif;
+}
+
+body {
+	background: #fff;
+}
+
+.container {
+	display: grid;
+	grid-auto-rows: minmax(50px, auto);
+	gap: 10px;
+}
+
+/* nav bar */
+.header {
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #000;
+}
+
+nav {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0px 20px;
+}
+.right-side {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.right-side.logo {
+	width: 10%;
+}
+
+.logo .v {
+	border-left: 3px solid #000;
+	margin: 0px 1.5px;
+	background: #000;
+}
+
+.right-side ul li{
+	display: inline;
+	margin: 10px;
+}
+.right-side ul li a {
+	text-decoration: none;
+	color: #000;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+.left-side {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0px 20px;
+}
+
+.left-side ul li{
+	display: inline;
+	margin: 10px;
+}
+
+.left-side ul li a {
+	text-decoration: none;
+	color: #000;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+#trylive {
+	color: #00f;
+}
+
+/* end nav bar */
+
+/* start main stylin */
+main {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.main-list {
+	width: 100%;
+	margin: 20px 20px;
+}
+.main-list ul li{
+	display: inline;
+	margin: 20px 10px;
+}
+ul li a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #000;
+}
+
+.main-img1 {
+	width: 85%;
+	margin: 30px auto;
+	position: relative;
+}
+.main-img1 img {
+	width: 100%;
+	text-align: center;
+	z-index: -1;
+}
+.main-img1 .Abelton-top {
+	font-size: 70px;
+	position: absolute;
+	top: 45%;
+	left: 30%;
+	color: #ff764d;
+	font-weight: bold;
+}
+
+.main-par1 {
+	width: 70%;
+	font-size: 15px;
+	margin: 100px auto;
+}
+
+.main-par1 .main-p-bold {
+	font-weight: bold;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.main-par1 .main-p-bold .special-words {
+	color: #00f;
+}
+
+.main-par1 .main-p {
+	font-weight: normal;
+	line-height: 22px;
+}
+
+.main-img2 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center ;
+	margin-bottom: 100px
+}
+
+.main-img2 .rec1 {
+	width: 60%;
+	height: 600px;
+	background: #fbffa7;
+	position: relative;
+	z-index: -1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.main-img2 .image-top img {
+	width: 45%;
+}
+.main-img2 .image2-2 {
+	position: relative;
+	left: 10%;
+	width: 40%;
+}
+
+.main-vid1 {
+	width: 70%;
+	margin: auto;
+	margin-bottom: 100px;
+}
+.main-vid1 h6 {
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.main-img3 {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-img3 .rec-wrapper {
+	background: #b6ffc0;
+	width: 70%;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.rec-wrapper img {
+	width: 60%;
+	margin: auto auto auto 10%;
+}
+
+.main-img3 .image3-3 {
+	position: relative;
+	left: -10%;
+}
+
+.main-img4 {
+	width: 80%;
+	margin: auto;
+}
+
+.main-p-2 {
+	margin-top: 20px;
+}
+
+.main-img6 {
+	width: 100%;
+	margin: auto;
+	position: relative;
+
+}
+.main-img6 .rec1-wrapper {
+	width: 70%;
+	height: 600px;
+	background: #d5b3ff;
+	margin: auto;
+	display: flex;
+	z-index: -1;
+	justify-content: center;
+	align-items: center;
+}
+
+.rec1-wrapper .image-6-a {
+	position: absolute;
+	bottom: 30%;
+	left: 5%;
+}
+
+.rec1-wrapper .image-6-b {
+	position: absolute;
+	top: 20%;
+	right: 0;
+}
+
+.main-img7 {
+	width: 100%;
+	margin: 100px 0;
+}
+
+.main-img7 .rec2-wrapper {
+	width: 80%;
+	height: 650px;
+	margin: auto;
+	background: #b1c5ff;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+}
+
+.rec2-wrapper img {
+	width: 100%;
+	flex: 2;
+}
+.rec2-wrapper .text {
+	margin: 20px;
+	padding: 0 10px;
+	bottom: 10%;
+	flex: 1;
+}
+.text p {
+	margin: 20px;
+	color: #000;
+	font-weight: bold;
+	line-height: 30px;
+}
+.text a {
+	text-decoration: none;
+	color: #00f;
+	font-weight: bold;
+	margin: 30px 20px;
+}
+
+.border {
+	width: 100%;
+	border-top: 0.5px solid #eee;
+}
+
+/* end main styling */
+
+/* start footer styling */
+
+.footer {
+	width: 80%;
+	margin: auto;
+	background: #fff;
+	color: #000;
+}
+
+.footer-item {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer h1 {
+	margin: 100px 0px 30px;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+
+.footer-item .footer-links {
+	width: 60%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.footer-links .flink {
+	width: 40%;
+	margin: 0 0 50px;
+	text-align: left;
+}
+
+.flink h6 {
+	font-size: 11px;
+	text-transform: capitalize;
+}
+
+.flink ul li {
+	list-style: none;
+}
+.flink ul li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 10px;
+}
+.flink .icons li{
+	display: inline;
+	margin: 0 5px;
+}
+.ic-tw {
+	background: #1da1f2;
+	color: #fff;
+	width: 15px;
+	height: 15px;
+}
+.ic-ins {
+	background: #c32aa3;
+	color: #fff;
+	width: 15px;
+	height: 15px;
+}
+
+.ic-fb {
+	background: #3b5998;
+	color: #fff;
+	width: 15px;
+	height: 15px;
+}
+
+.form {
+	width: 40%;
+	text-align: left;
+}
+.form p {
+	font-size: 10px;
+	margin-bottom: 20px;
+}
+
+.form h6 {
+	font-size: 11px;
+	margin-bottom: 5px;
+}
+
+.form input {
+	box-sizing: border-box;
+	width: 70%;
+	height: 30px;
+	border: none;
+	background: #eaeaea;
+	margin: 0;
+	padding: 5px;
+}
+
+.form button {
+	height: 30px;
+	width: 30%;
+	margin-left: -2%;
+	border: none;
+	background: #0000ff;
+	color: #fff;
+	font-size: 10px;
+}
+
+.footer-foot {
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 0.1px solid #eee;
+}
+
+.footer-foot .right ul li{
+	display: inline;
+	margin-right: 5px;
+}
+
+.footer-foot  ul li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 7px;
+	font-weight: bold;
+}
+
+
+.footer-logo .v {
+	border-left: 3px solid #000;
+	margin: 0 10px;
+	margin: 0px 1.5px;
+	background: #000;
+}
+
+.footer-foot .left a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-size: 7px;
+	margin-right: 10px;
+}
+
+/* end footer styling */
