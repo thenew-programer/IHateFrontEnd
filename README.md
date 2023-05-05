@@ -23,5 +23,5 @@ This is my first clone, it's just a beginner clone, it's not responsive at all, 
 ![Abelton-original](./media/Ableton-original.webp) 
 
 ### CLONE
-![Abelton-clone](./0x0A-Ableton-Clone/media/Ableton-clone.png)
+![Abelton-clone](./media/Ableton-clone.png)
 
