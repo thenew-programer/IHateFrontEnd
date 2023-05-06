@@ -18,7 +18,7 @@
 		if (screen.value === '') {
 			screen.value = "";
 		} else {
-			let answer = eval(screen.value);
+			let answer = eval(Number(screen.value));
 			screen.value = answer;
 		}
 	})

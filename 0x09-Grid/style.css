@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #000;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-rows: 100px repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+.grid {
+	background: #fff;
+	text-align: center;
+	font-size: 50px;
+}
+
+.grid0 {
+	grid-column: 1/5;
+	background: yellow;
+}
+
+.grid1 {
+	grid-row: 2/4;
+	grid-column: 1/4;
+	background: green;
+}
+.grid2 {
+	grid-row: 2/4;
+	background: orange;
+}
+.grid3 {
+	grid-column: 1/5;
+	height: 300px;
+	margin-bottom: 20px;
+	background: red;
+}

@@ -32,3 +32,5 @@ go to my clone => [myclone.com](https://thenew-programer.github.io/myclone.com/)
 
 ## 0x0D Backstagetalks Clone
 Official Site: [backstagetalks.com](https://backstagetalks.com/)
+
+![](./media/project-4.gif)

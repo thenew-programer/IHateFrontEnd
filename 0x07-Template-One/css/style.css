@@ -15,3 +15,29 @@ body{
 	font-family: "Work Sans", sans-serif;
 }
 /* End Global Rules */
+
+/* start header styling */
+
+header {
+	width: 100%;
+	background: #eee;
+	height: 3.5rem;
+}
+
+nav {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+header .logo {
+	width: 10%;
+}
+
+header span ul li{
+	display: inline;
+	margin: 10px;
+}
+
+/* end header styling */
