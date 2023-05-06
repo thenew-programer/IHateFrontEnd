@@ -1,0 +1,163 @@
+:root {
+	--white: #fff;
+	--green: #00c1b5;
+	--orange: #ff6519;
+	--yellow: #ffbe00;
+	--blue: #1d3fbb;
+	--red: #e30512;
+	--font-color: #333;
+	--except-color: #e568ac;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background: var(--white);
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	box-sizing: border-box;
+	overflow: scroll;
+	scroll-snap-type: y mandatory;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 2rem;
+}
+
+header .logo ,
+.email{
+	margin: 1em 1.5em;
+}
+.logo a, 
+.email{
+	text-decoration: none;
+	color: var(--font-color) !important;
+}
+.logo a {
+	font-weight: 700;
+	font-size: 2.2rem;
+	letter-spacing: -1px;
+}
+
+.email {
+	text-decoration: none;
+	color: var(--font-color);
+	font-size: 1rem;
+}
+
+main {
+	width: 100%;
+	height: 100%;
+	scroll-snap-align: start;
+}
+
+main .main-item {
+	width: 80%;
+	margin: auto;
+}
+
+.content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.content img {
+	width: 50%;
+}
+
+.content * {
+	margin: .3em 0 .8em;
+}
+
+.content h4 {
+	font-weight: 700;
+	font-size: 1.4rem;
+}
+p a {
+	text-decoration: none;
+	color: var(--white);
+}
+
+.content button {
+	border: 0;
+	background: transparent;
+	font-weight: 700;
+	font-size: 1.075rem;
+	color: var(--white);
+}
+
+button:hover,
+p a:hover {
+	text-decoration: underline;
+}
+.white  .content{
+	margin-top: 10rem;
+}
+.red .content {
+	margin-bottom: 0;
+}
+
+
+
+footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .footer-foot {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	margin: 2rem 1rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	text-align: left;
+}
+
+.footer-foot p {
+	width: 30ch;
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+.footer-foot p span ,
+.footer-foot span a{
+	color: var(--font-color) !important;
+	font-size: .99rem;
+}
+
+.footer-foot h4 a{
+	font-size: 1.5rem;
+	margin: 1rem 0;
+	color: var(--font-color) !important;
+}
+footer .issues {
+	margin: 2rem;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+.issues ul li {
+	list-style: none;
+	margin: .2rem;
+}
+.issues ul li a{
+	text-decoration: none;
+	font-size: 1.4rem;
+	font-weight: 700;
+	color: var(--font-color) !important;
+}
