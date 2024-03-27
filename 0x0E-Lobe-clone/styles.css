@@ -1,0 +1,178 @@
+@import url("./fonts/stylesheet.css");
+
+:root {
+  --white: #fff;
+  --green: #04ddb2;
+  --black: #333;
+  --gray: #767676;
+  --font-primary-color: #333;
+  --font-secondary-color: #767676;
+  --except-color: #e568ac;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lab Grotesque", sans-serif;
+}
+
+body {
+  background: var(--white);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Header styling*/
+
+header {
+  display: flex;
+  background: var(--white);
+  width: 90%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 1em;
+  backdrop-filter: blur(10px);
+}
+.logo a {
+  font-size: 2em;
+  text-decoration: none;
+  color: var(--font-primary-color);
+  font-weight: 600;
+}
+.list ul {
+  display: flex;
+  gap: 2.5em;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.list a {
+  text-decoration: none;
+  color: var(--font-secondary-color);
+  font-size: 1.2em;
+  font-weight: 500;
+}
+a.tour {
+  color: var(--font-primary-color);
+}
+.button button {
+  padding: 0.5em;
+  width: 150px;
+  border: 0;
+  border-radius: 50px;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 1.5em;
+  font-weight: 500;
+}
+/* End header styling */
+
+/*First section styling */
+section {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 10em;
+}
+
+section .section-heading {
+  font-size: 3.5em;
+  color: var(--font-primary-color);
+  font-weight: 800;
+}
+section .section-heading-colored {
+  color: var(--green);
+}
+section .section-text {
+  color: var(--font-primary-color);
+  max-width: 50%;
+  margin: auto;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+section img {
+  max-width: 90%;
+  margin-top: 3em;
+  border-radius: 50px;
+  box-shadow: 0;
+  transform: scale(1);
+  transition-property: box-shadow;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+
+section img:hover {
+  transform: scale(1.01);
+  box-shadow:
+    rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+/*End First Section styling */
+
+/*Second Section styling*/
+section button {
+  margin-top: 2.5em;
+  padding: 0.5em;
+  width: 200px;
+  border: 0;
+  border-radius: 50px;
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 1.5em;
+  font-weight: 500;
+}
+/*End Second Section styling*/
+/*Footer styling*/
+footer {
+  background-color: var(--white);
+  color: var(--font-primary-color);
+  line-height: 1.5;
+  margin: auto;
+  margin-bottom: 5em;
+  margin-top: 5em;
+  border-top: 0.2px solid var(--gray);
+  width: 70%;
+}
+footer a {
+  text-decoration: none;
+  color: var(--font-secondary-color);
+  font-size: 1em;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+}
+footer a:hover {
+  font-size: 1.1em;
+}
+
+footer .ft-section {
+  margin-top: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 2em;
+}
+footer .ft-item h2 {
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+.ft-item {
+  padding: 1.25rem;
+  min-width: 12.5rem;
+}
+/*End Footer Styling*/
